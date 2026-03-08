@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": ""
+  },
+  "text": {
+    "more": "This network visualizes collaboration relationships between producers and the artists they have produced songs for. Each node represents either a producer or an artist, while edges represent production relationships, with node size reflecting the number of connections and color indicating modularity-based collaboration communities. The visualization highlights central producers who work with multiple artists and reveals clusters of artists connected through shared production networks.",
+    "intro": "This interactive network visualization shows relationships between music producers and the artists they have worked with, where nodes represent producers or artists and edges represent production collaborations.",
+    "title": "Producer-Artist Collaboration Network in Popular Music"
+  },
+  "legend": {
+    "edgeLabel": "Lines represent production relationships between producers and artists.",
+    "colorLabel": "Lines represent production relationships between producers and artists.",
+    "nodeLabel": "Each node represents a producer or artist; larger nodes indicate more collaborations."
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
