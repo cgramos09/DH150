@@ -13,9 +13,9 @@
     "title": "Writer-Artist Collaboration Network in Popular Music"
   },
   "legend": {
-    "edgeLabel": "",
-    "colorLabel": "",
-    "nodeLabel": ""
+    "edgeLabel": "Edges represent shared songwriting credits.",
+    "colorLabel": "Colors represent collaboration communities.",
+    "nodeLabel": "Nodes represent songwriters and performing artists."
   },
   "features": {
     "search": true,
@@ -40,8 +40,8 @@
       "defaultLabelSize": 14
     },
     "graphProperties": {
-      "maxEdgeSize": 0.5,
-      "minEdgeSize": 0.2,
+      "maxEdgeSize": 1.5,
+      "minEdgeSize": 0.8,
       "minNodeSize": 1,
       "maxNodeSize": 7
     },
