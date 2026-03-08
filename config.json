@@ -8,9 +8,9 @@
     "text": ""
   },
   "text": {
-    "more": "This visualization maps collaborative songwriting networks behind popular music. \nThe graph highlights recurring creative partnerships and major songwriting hubs.\nNode size reflects weighted degree (number of collaborations), revealing central figures in the pop songwriting industry.",
-    "intro": "A network visualization of recurring songwriting collaborations in mainstream pop music. Nodes represent writers and edges represent shared songwriting credits.",
-    "title": "Writers in Pop Music"
+    "more": "This visualization maps collaboration networks between songwriters and performing artists in popular music. Nodes represent individuals and edges represent shared songwriting credits.",
+    "intro": "This visualization maps collaboration networks between songwriters and performing artists in popular music. Nodes represent individuals and edges represent shared songwriting credits.",
+    "title": "Writer-Artist Collaboration Network in Popular Music"
   },
   "legend": {
     "edgeLabel": "",
