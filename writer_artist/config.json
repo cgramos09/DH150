@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": ""
+  },
+  "text": {
+    "more": "This visualization maps collaboration networks between songwriters and performing artists in popular music. Nodes represent individuals and edges represent shared songwriting credits.",
+    "intro": "This visualization maps collaboration networks between songwriters and performing artists in popular music. Nodes represent individuals and edges represent shared songwriting credits.",
+    "title": "Writer-Artist Collaboration Network in Popular Music"
+  },
+  "legend": {
+    "edgeLabel": "Edges represent shared songwriting credits.",
+    "colorLabel": "Colors represent collaboration communities.",
+    "nodeLabel": "Nodes represent songwriters and performing artists."
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 1.5,
+      "minEdgeSize": 0.8,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
